@@ -1,5 +1,5 @@
 
-## Sitio web en [![Netlify Status][https://stupefied-dijkstra-baf680.netlify.app]
+## Sitio web en Netlify: https://stupefied-dijkstra-baf680.netlify.app
 (vigente hasta el 12/12/2021, configurado en las reglas de firebase (modificable), luego de esta fecha la base de datos no remitira un answer)
 
 
