@@ -1,0 +1,33 @@
+<div class="container mt-4">
+  <div class="card">
+    <div class="card-body">
+      <span class="h3">Lista de empleados</span>
+      <button type="text" class="btn btn-secondary btn-lg " style="float: right;" routerLink="/inicio">Volver</button>
+      <button class="btn btn-dark btn-lg " style="float: right; margin-right: 20px;" routerLink="/create-empleados">Añadir</button>
+      <h5 style="margin-top: 15px; color: red;" *ngIf="empleados.length == 0">No contamos con informacion :(</h5>
+      <table *ngIf="empleados.length > 0" class="table table-warning mt-5">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>DNI</th>
+            <th>Sueldo</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let empleado of empleados">
+            <td>{{ empleado.nombre }}</td>
+            <td>{{ empleado.apellido }}</td>
+            <td>{{ empleado.dni }}</td>
+            <td>{{ empleado.sueldo | currency }}</td>
+            <td>
+              <i class="far fa-edit fa-lg text-info" style="margin-right: 20px;" [routerLink]="['/editEmpleado/', empleado.id]" ></i>
+              <i class="fas fa-bomb fa-lg text-danger" (click)="eliminarEmpleado(empleado.id)"></i>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

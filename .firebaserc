@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "recursos-humanos-f9065": {
+      "hosting": {
+        "empleados": [
+          "recursos-humanos-f9065"
+        ]
+      }
+    }
+  }
+}
