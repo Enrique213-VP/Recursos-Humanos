@@ -7,6 +7,9 @@
 
 Este proyecto es generado en Angular.
 
+![image](https://user-images.githubusercontent.com/70002378/121827015-3874f000-cc80-11eb-951f-1102879dce8a.png)
+
+
 ## Desarrollo del Servidor
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
