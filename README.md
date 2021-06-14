@@ -14,3 +14,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Base de datos utilizada
 
 Firebase.
+![image](https://user-images.githubusercontent.com/70002378/121826977-167b6d80-cc80-11eb-90db-64402ef0a542.png)
